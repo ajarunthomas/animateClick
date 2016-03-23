@@ -1,0 +1,88 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/animateClick.js"></script>
+
+<link rel="stylesheet" href="css/main.css" />
+
+<meta name="description" content="jQuery Plugin to create animation on mouse click" />
+<meta name="keywords" content="arun,thomas,jquery,plugin,animateClick,click,animate,animation,mouse" />
+<meta name="author" content="Arun Thomas" />
+<meta name="alexaVerifyID" content="BpG8y2P8vrm_nrBOX09g26aB3lY"/>
+<title>animateClick Demo</title>
+
+<script>
+$(document).ready(function() {
+	$('#btn').animateClick({
+		"color":"black"
+	});
+	$('#btn2').animateClick({
+		"color":"green",
+		"animation":"tick"
+	});
+	$('#btn3').animateClick({
+		"color":"red",
+		"animation":"cross"
+	});
+	$('#btn4').animateClick({
+		"color":"grey",
+		"animation":"signal"
+	});
+	$('#btn5').animateClick({
+		"color":"lightblue",
+		"animation":"shoot"
+	});
+});
+</script>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71445628-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</head>
+
+<body>
+
+<div id="menu">
+<a href="../">Home</a>
+<a href="../docs.html">Documentation</a>
+<a style="color:rgb(102,102,102)">Demo</a>
+<a download href="js/animateClick.js">Download</a>
+<a href="../../">More Plugins</a>
+<a href="../contact.html">Contact</a>
+</div>
+
+<div id="heading">
+<br><br><br>
+<h1>animateClick</h1>
+<h3>DEMO</h3>
+<br>
+<a style="font-size:14px">click on the buttons below to see the animations available</a>
+</div>
+
+<div style="margin-top:70px; text-align:center">
+<a id="btn" class="button" href="#">Default Animation</a>
+<br><br><br><br><br>
+<a id="btn2" class="button" href="#">Tick Animation</a>
+<a id="btn3" class="button" href="#">Cross Animation</a>
+<br><br><br><br><br>
+<a id="btn4" class="button" href="#">Signal Animation</a>
+<a id="btn5" class="button" href="#">Shoot Animation</a>
+</div>
+
+<div id="footer">
+<a>Copyright (c) 2016 Arun Thomas</a>
+</div>
+
+</body>
+
+</html>

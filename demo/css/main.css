@@ -1,0 +1,59 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat.otf'),
+    url('../fonts/Montserrat.otf'); /* IE */
+}
+body{
+	height:100%;
+	margin:0;
+	padding:0;
+	font-family:Montserrat;
+	text-align:center;
+	background-color:rgb(0,51,51);
+	overflow-x:hidden;
+}
+
+#menu{
+	background-color:rgb(0,0,0);
+	text-align:left;
+	color:rgb(204,204,204);
+	padding:10px;
+	padding-left:40px;
+}
+
+#menu a{
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	color:rgb(204,204,204);
+}
+
+#footer{
+	width:100%;
+	position:fixed;
+	bottom:0;
+	background-color:rgb(0,0,0);
+	text-align:center;
+	font-size:10px;
+	color:rgb(204,204,204);
+	padding:5px;
+}
+
+#heading{
+	color:rgb(255,255,255);
+}
+
+.button{
+	width:100px;
+	color:rgb(255,255,255);
+	border:rgb(255,255,255) solid;
+	border-radius:15px;
+	padding:15px;
+	text-decoration:none;
+}
+
+.button:hover{
+	background-color:rgb(255,255,255);
+	color:rgb(51,51,51);
+	transition:ease-in-out .5s;
+}
