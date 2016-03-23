@@ -1,0 +1,22 @@
+{
+  "name": "animateClick",
+  "version": "1.1.1",
+  "title": "animateClick",
+  "author": "Arun Thomas",
+  "keywords": [
+        "animate",
+        "animateClick",
+        "mouse",
+        "click"
+  ],
+  "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/ajarunthomas/animateClick/blob/master/LICENSE"
+        }
+  ],
+  "description": "jQuery Plugin to create animation on mouse click",
+  "homepage": "http://www.ajarunthomas.com/jquery/animateClick",
+  "docs": "http://www.ajarunthomas.com/jquery/animateClick/docs.html",
+  "download": "http://www.ajarunthomas.com/jquery/animateClick/js/animateClick.js"
+}
