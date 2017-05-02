@@ -7,16 +7,16 @@ www.ajarunthomas.com
 <br>
 <br>
 <a href="http://www.ajarunthomas.com/jquery/animateClick/demo/" target="_blank" style="text-decoration:none">Demo</a>
-<a download href="http://www.ajarunthomas.com/jquery/animateClick/js/animateClick.js" target="_blank" style="text-decoration:none">Download</a>
+<a download href="http://www.ajarunthomas.com/files/animateClick.js" target="_blank" style="text-decoration:none">Download</a>
 <br><br>
 <a href="http://www.ajarunthomas.com/jquery/animateClick/" target="_blank" style="text-decoration:none">Website</a>
-##USAGE
-###Step 1 : Include js
+## USAGE
+### Step 1 : Include js
 ```
 <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
 <script type="text/javascript" src="js/animateClick.js"></script>
 ```
-###Step 2 : Activate Plugin
+### Step 2 : Activate Plugin
 ```
 $(document).ready(function() {
     $('#btn').animateClick();
